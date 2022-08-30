@@ -841,7 +841,7 @@ func (s *v4Server) processRequest(req, resp *dhcpv4.DHCPv4) (lease *Lease, needs
 	return lease, needsReply
 }
 
-// processRequest is the handler for the DHCP Decline request.
+// processDecline is the handler for the DHCP Decline request.
 func (s *v4Server) processDecline(req, resp *dhcpv4.DHCPv4) (err error) {
 	s.conf.notify(LeaseChangedDBStore)
 
