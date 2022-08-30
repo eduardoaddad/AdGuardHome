@@ -32,8 +32,7 @@ and this project adheres to
 
 ### Changed
 
-- The DHCP requests handling now implements the [RFC 2131][rfc-2131] more
-  closely.
+- The DHCP requests handling is now closer to the [RFC 2131][rfc-2131].
 - The internal DNS client, used to resolve hostnames of external clients and
   also during automatic updates, now respects the upstream mode settings for the
   main DNS client ([#4403]).
