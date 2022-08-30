@@ -942,8 +942,6 @@ func (s *v4Server) processRelease(req, resp *dhcpv4.DHCPv4) (err error) {
 	return nil
 }
 
-// func (s *v4Server) processByMsgType(req, resp *dhcpv4.DHCPv4) (l *Lease, )
-
 // Find a lease associated with MAC and prepare response
 // Return 1: OK
 // Return 0: error; reply with Nak
